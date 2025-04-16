@@ -93,7 +93,7 @@ export default function Home() {
               {/* Text Content */}
               <div className="space-y-6 animate-slide-in-left lg:col-span-2 order-last lg:order-first text-left">
                 <div className="inline-block rounded-full bg-gray-800 px-4 py-1.5 text-base text-gray-200 mb-6 shimmer-effect">
-                  Intelligenter arbeiten, besser leben
+                  Intelligenter arbeiten, besser leben.
                 </div>
                 <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter futuristic-text text-glow leading-tight">
                   Terminbuchung, die Eindruck hinterlässt
@@ -155,7 +155,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="space-y-4 md:space-y-6 order-1 lg:order-2 animate-fade-in text-left">
-                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold tracking-tighter futuristic-text">
+                <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter futuristic-text">
                   Mehr als nur eine Dienstleistung – ein Erlebnis, das bleibt
                 </h2>
                 <p className="text-lg md:text-xl text-gray-400">
@@ -179,7 +179,7 @@ export default function Home() {
         <section id="vorteile" className="py-16 md:py-24 bg-black">
           <div className="container px-4 md:px-6">
             <div className="text-left md:text-center max-w-[900px] mx-auto mb-10 md:mb-16 animate-fade-in">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold tracking-tighter futuristic-text mb-4 md:mb-6">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter futuristic-text">
                 So hilft es Ihnen
               </h2>
               <p className="text-lg md:text-xl text-gray-400">
@@ -242,7 +242,7 @@ export default function Home() {
         <section id="funktionen" className="py-16 md:py-24 bg-gradient-to-b from-gray-900 to-black">
           <div className="container px-4 md:px-6">
             <div className="text-left md:text-center max-w-[900px] mx-auto mb-10 md:mb-16 animate-fade-in">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold tracking-tighter futuristic-text mb-4 md:mb-6">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter futuristic-text mb-4 md:mb-6">
                 Entdecken Sie die wichtigsten Vorteile Ihrer neuen App
               </h2>
             </div>
@@ -378,7 +378,7 @@ export default function Home() {
           <div className="container px-4 md:px-6">
             <div className="grid gap-8 md:gap-12 lg:gap-16 items-center lg:grid-cols-2">
               <div className="space-y-4 md:space-y-6 animate-slide-in-left text-left">
-                <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold tracking-tighter futuristic-text">
+                <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter futuristic-text">
                   Ein Preis für jeden – eine Marke für alle
                 </h2>
                 <p className="text-lg md:text-xl text-gray-400">
@@ -412,7 +412,7 @@ export default function Home() {
         <section id="preise" className="py-16 md:py-24 bg-gradient-to-b from-black to-gray-900">
           <div className="container px-4 md:px-6">
             <div className="text-left md:text-center max-w-[900px] mx-auto mb-10 md:mb-16 animate-fade-in">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold tracking-tighter futuristic-text mb-4 md:mb-6">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter futuristic-text mb-4 md:mb-6">
                 Professionelle Lösung – zum fairen Preis
               </h2>
               <p className="text-lg md:text-xl text-gray-400">
@@ -423,7 +423,7 @@ export default function Home() {
             <div className="grid gap-6 md:gap-8 md:grid-cols-2 max-w-[1000px] mx-auto">
               <Card className="gradient-border bg-black animate-scale-in h-full flex flex-col" style={{ animationDelay: "0.1s" }}>
                 <div className="p-6 md:p-8 flex flex-col flex-1">
-                  <h3 className="text-xl md:text-2xl font-bold mb-2 md:mb-3">Dauerhafte Veröffentlichung über unsere Apple- & Google-Konten</h3>
+                  <h3 className="text-xl md:text-2xl font-bold mb-2 md:mb-3">Monatliches Abonnement</h3>
                   <div className="text-3xl md:text-4xl font-bold mb-4 md:mb-6">
                     €<span className="text-lg md:text-xl text-gray-400">/Individueller Preis auf Anfrage erhältlich</span>
                   </div>
@@ -504,7 +504,7 @@ export default function Home() {
         <section id="app" className="py-16 md:py-24 bg-black">
           <div className="container px-4 md:px-6">
             <div className="text-left md:text-center max-w-[900px] mx-auto mb-10 md:mb-16 animate-fade-in">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold tracking-tighter futuristic-text mb-4 md:mb-6">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter futuristic-text mb-4 md:mb-6">
                 Premium-Stil – exklusiv und klar
               </h2>
               <p className="text-lg md:text-xl text-gray-400">
@@ -523,7 +523,7 @@ export default function Home() {
         <section id="kontakt" className="py-16 md:py-24 bg-gradient-to-b from-gray-900 to-black">
           <div className="container px-4 md:px-6">
             <div className="text-left md:text-center max-w-[900px] mx-auto mb-10 md:mb-16 animate-fade-in">
-              <h2 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold tracking-tighter futuristic-text mb-4 md:mb-6">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter futuristic-text mb-4 md:mb-6">
                 Vereinbaren Sie eine Demo oder kontaktieren Sie uns direkt
               </h2>
               <p className="text-lg md:text-xl text-gray-400">
