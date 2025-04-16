@@ -1,0 +1,39 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://mkbuchung.de/#business",
+      "name": "MK Dienstleistung",
+      "image": "https://mkbuchung.de/images/header-logo.png",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Sontraer Str. 17",
+        "addressLocality": "Frankfurt",
+        "postalCode": "60386",
+        "addressCountry": "DE"
+      },
+      "telephone": "+49 157 524 98 366",
+      "email": "info@mkbuchung.de",
+      "url": "https://mkbuchung.de",
+      "priceRange": "€€"
+    },
+    {
+      "@type": "SoftwareApplication",
+      "name": "MK Buchung",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "Professionelle Terminbuchungssoftware für Friseursalons in Deutschland. Optimieren Sie Ihre Terminplanung, reduzieren Sie No-Shows und steigern Sie Ihren Umsatz.",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.8",
+        "ratingCount": "150"
+      }
+    }
+  ]
+}

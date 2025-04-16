@@ -100,7 +100,7 @@ export default function Home() {
                 </h1>
                 <p className="text-lg md:text-xl text-gray-400 max-w-[700px] mt-6">
                   Vergessen Sie chaotische Kalender, ständige Nachrichten und endlose Telefonate. Ab jetzt läuft Ihr
-                  <strong>Salon wie ein Schweizer Uhrwerk</strong>.
+                  Salon wie ein Schweizer Uhrwerk.
                 </p>
                 <p className="text-lg md:text-xl text-gray-400 max-w-[700px]">
                   Eine <strong>intelligente, multifunktionale App</strong> der neuen Generation – entwicktelt, um Ihre Zeit efficienter zu organisieren, das <strong>Image Ihres Salon</strong> zu stärken und Ihren Kunden ein <strong>erstklassiges Buchungserlebnis</strong> zu bieten.
