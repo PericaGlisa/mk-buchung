@@ -96,14 +96,14 @@ export default function Home() {
                   Intelligenter arbeiten, besser leben.
                 </div>
                 <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter futuristic-text text-glow leading-tight">
-                  Terminbuchung, die Eindruck hinterlässt
+                  <strong>Terminbuchung</strong>, die Eindruck hinterlässt
                 </h1>
                 <p className="text-lg md:text-xl text-gray-400 max-w-[700px] mt-6">
                   Vergessen Sie chaotische Kalender, ständige Nachrichten und endlose Telefonate. Ab jetzt läuft Ihr
-                  Salon wie ein Schweizer Uhrwerk.
+                  <strong>Salon wie ein Schweizer Uhrwerk</strong>.
                 </p>
                 <p className="text-lg md:text-xl text-gray-400 max-w-[700px]">
-                  Eine intelligente, multifunktionale App der neuen Generation – entwicktelt, um Ihre Zeit efficienter zu organisieren, das Image Ihres Salon zu stärken und Ihren Kunden ein erstklassiges Buchungserlebnis zu bieten.
+                  Eine <strong>intelligente, multifunktionale App</strong> der neuen Generation – entwicktelt, um Ihre Zeit efficienter zu organisieren, das <strong>Image Ihres Salon</strong> zu stärken und Ihren Kunden ein <strong>erstklassiges Buchungserlebnis</strong> zu bieten.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 pt-8">
                   <Link href="#vorteile">
@@ -156,7 +156,7 @@ export default function Home() {
               </div>
               <div className="space-y-4 md:space-y-6 order-1 lg:order-2 animate-fade-in text-left">
                 <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold tracking-tighter futuristic-text">
-                  Mehr als nur eine Dienstleistung – ein Erlebnis, das bleibt
+                  Mehr als nur eine Dienstleistung – ein <strong>Erlebnis, das bleibt</strong>
                 </h2>
                 <p className="text-lg md:text-xl text-gray-400">
                   Wenn Ihr Salon eine eigene App hat, sehen Kunden Sie nicht mehr nur als lokalen Friseur, sondern als
