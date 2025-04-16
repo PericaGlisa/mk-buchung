@@ -26,7 +26,7 @@ import {
 
 export default function Home() {
   return (
-    <div id="oben" className="flex min-h-screen flex-col">
+    <div id="oben" className="flex min-h-screen flex-col overflow-x-hidden">
       <header className="fixed top-0 left-0 right-0 z-50 border-b border-gray-800 bg-black/80 backdrop-blur-md">
         <div className="container flex h-20 items-center justify-between">
           {/* Linke Seite - Navigation */}
@@ -98,11 +98,11 @@ export default function Home() {
                 <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter futuristic-text text-glow leading-tight">
                   Terminbuchung, die Eindruck hinterlässt
                 </h1>
-                <p className="text-base md:text-xl text-gray-400 max-w-[700px] mt-6">
+                <p className="text-lg md:text-xl text-gray-400 max-w-[700px] mt-6">
                   Vergessen Sie chaotische Kalender, ständige Nachrichten und endlose Telefonate. Ab jetzt läuft Ihr
                   Salon wie ein Schweizer Uhrwerk.
                 </p>
-                <p className="text-base md:text-xl text-gray-400 max-w-[700px]">
+                <p className="text-lg md:text-xl text-gray-400 max-w-[700px]">
                   Eine intelligente, multifunktionale App der neuen Generation – entwicktelt, um Ihre Zeit efficienter zu organisieren, das Image Ihres Salon zu stärken und Ihren Kunden ein erstklassiges Buchungserlebnis zu bieten.
                 </p>
                 <div className="flex flex-col sm:flex-row gap-4 pt-8">
@@ -302,7 +302,7 @@ export default function Home() {
             </div>
 
             {/* Dritte Reihe: 4 Karten */}
-            <div className="grid gap-6 md:gap-8 md:grid-cols-2 lg:grid-cols-4 stagger-animation mt-6 md:mt-8">
+            <div className="grid gap-6 md:gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 stagger-animation mt-6 md:mt-8">
               <FeatureCard
                 title="Ein Preis für jeden"
                 description="Bauen Sie Ihre Marke mit flexiblen Preisen pro Barber auf. Jedes Teammitglied kann individual bepreist werden – von Schnellservice bis Premium-Erlebnis."
@@ -692,9 +692,9 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="mt-8 md:mt-12 pt-6 md:pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-start md:items-center gap-4">
-            <p className="text-xs md:text-sm text-gray-400">© 2025 MK Dienstleistung. Alle Rechte vorbehalten.</p>
-            <div className="flex items-center">
+          <div className="mt-8 md:mt-12 pt-6 md:pt-8 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center md:items-center gap-4">
+            <p className="text-xs md:text-sm text-gray-400 text-center md:text-left w-full md:w-auto">© 2025 MK Dienstleistung. Alle Rechte vorbehalten.</p>
+            <div className="flex items-center justify-center md:justify-start w-full md:w-auto">
               <span className="text-xs md:text-sm text-gray-400">Designed und entwickelt von </span>
               <a
                 href="https://petarmiodrag2.xyz/"

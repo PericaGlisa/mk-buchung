@@ -6,6 +6,7 @@ import { Button } from "@/components/ui/button"
 import Link from "next/link"
 import Image from "next/image"
 import { Menu } from "lucide-react"
+import { DialogTitle } from "@/components/ui/dialog"
 
 export function MobileMenu() {
   const [open, setOpen] = useState(false)
@@ -21,6 +22,7 @@ export function MobileMenu() {
         </Button>
       </SheetTrigger>
       <SheetContent side="right" className="bg-black border-gray-800 flex flex-col">
+        <DialogTitle className="sr-only">Navigation Menu</DialogTitle>
         <div className="flex justify-start mt-6 mb-10">
           <Image
             src="/images/header-logo.png"
