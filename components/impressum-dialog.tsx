@@ -23,7 +23,7 @@ export function ImpressumDialog() {
             <p>info@mkbuchung.de</p>
           </div>
           <div className="pt-4">
-            <p>© 2025 MK Dienstleistung. All rights reserved.</p>
+            <p>© 2025 MK Dienstleistung. Alle Rechte vorbehalten.</p>
           </div>
         </div>
       </DialogContent>

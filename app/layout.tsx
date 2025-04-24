@@ -40,7 +40,7 @@ export const metadata: Metadata = {
     siteName: "MK Buchung",
     images: [
       {
-        url: "https://mkbuchung.de/images/og-image-new.png",
+        url: "https://mkbuchung.de/images/og-image-final.png",
         width: 1200,
         height: 630,
         alt: "MK Buchung - Innovative Terminbuchung für Salons",
@@ -54,7 +54,7 @@ export const metadata: Metadata = {
     title: "MK Buchung | Smarte Terminbuchung für moderne Salons",
     description:
       "Entdecken Sie die fortschrittlichste Terminbuchungslösung für Ihren Salon. Effizient, kundenfreundlich und perfekt für den deutschen Markt optimiert.",
-    images: ["https://mkbuchung.de/images/og-image-new.png"],
+    images: ["https://mkbuchung.de/images/og-image-final.png"],
     site: "@mkbuchung",
     creator: "@mkbuchung"
   },
