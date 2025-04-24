@@ -1,8 +1,0 @@
-<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <rect width="1200" height="630" fill="#000000"/>
-  <rect x="50" y="50" width="1100" height="530" rx="20" fill="#111111" stroke="#333333" stroke-width="2"/>
-  <text x="600" y="250" font-family="Arial, sans-serif" font-size="80" font-weight="bold" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">MK Buchung</text>
-  <text x="600" y="350" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#CCCCCC" text-anchor="middle" dominant-baseline="middle">Professionelle Terminbuchung für Salons</text>
-  <rect x="400" y="400" width="400" height="80" rx="40" fill="#333333"/>
-  <text x="600" y="450" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#FFFFFF" text-anchor="middle" dominant-baseline="middle">www.mkbuchung.de</text>
-</svg>
