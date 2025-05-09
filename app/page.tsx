@@ -53,7 +53,7 @@ export default function Home() {
           </div>
 
           {/* Rechte Seite - Navigation und Buttons */}
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-8">
             <nav className="hidden md:flex gap-8">
               <Link href="#preise" className="text-base font-medium text-gray-300 hover:text-white transition-colors">
                 Preise
