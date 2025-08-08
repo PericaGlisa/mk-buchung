@@ -22,6 +22,9 @@
     "paragraph2": "Eine App mit dem Namen Ihres Salons schafft ein Gefühl von Zugehörigkeit – der Kunde fühlt sich wie ein Teil Ihres Teams, nicht wie ein beliebiger Besucher.",
     "paragraph3": "Das stärkt die Kundenbindung, hebt Ihr Image und unterscheidet Sie klar vom Wettbewerb. Klingt nach internationalem Niveau? Genau das ist es auch."
   },
+  "images": {
+    "appConfirmationAlt": "Marcus Klein App Terminbestätigung"
+  },
   "benefits": {
     "title": "So hilft es Ihnen",
     "subtitle": "Vereinfachen Sie Ihren Alltag mit besserer Organisation und Struktur im Salon.",

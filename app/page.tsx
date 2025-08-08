@@ -105,11 +105,7 @@ export default function Home() {
                   {messages.hero.tagline}
                 </div>
                 <h1 className="text-3xl sm:text-4xl md:text-6xl lg:text-7xl font-bold tracking-tighter futuristic-text text-glow leading-tight">
-                  {messages.language === "de" ? (
-                    <><strong>Terminbuchung</strong>, die Eindruck hinterlässt</>
-                  ) : (
-                    <><strong>Appointment Booking</strong> that Makes an Impression</>
-                  )}
+                  {messages.hero.title}
                 </h1>
                 <p className="text-lg md:text-xl text-gray-400 max-w-[700px] mt-6">
                   {messages.hero.description1}
@@ -159,7 +155,7 @@ export default function Home() {
                 <div className="relative w-full max-w-[700px] mx-auto lg:mx-0 animate-fade-in image-animate overflow-hidden">
                   <Image
                     src="/images/feature-image-1.png"
-                    alt={messages.language === "de" ? "Marcus Klein App Terminbestätigung" : "Marcus Klein App Appointment Confirmation"}
+                    alt={messages.images.appConfirmationAlt}
                     width={900}
                     height={1300}
                     className="relative w-full h-auto"
