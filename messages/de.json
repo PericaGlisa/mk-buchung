@@ -1,0 +1,192 @@
+{
+  "navigation": {
+    "advantages": "Vorteile",
+    "features": "Funktionen",
+    "prices": "Preise",
+    "contact": "Kontakt",
+    "requestDemo": "Demo anfragen",
+    "startNow": "Jetzt starten",
+    "learnMore": "Mehr erfahren"
+  },
+  "hero": {
+    "tagline": "Intelligenter arbeiten, besser leben.",
+    "title": "Terminbuchung, die Eindruck hinterlässt",
+    "description1": "Vergessen Sie chaotische Kalender, ständige Nachrichten und endlose Telefonate. Ab jetzt läuft Ihr Salon wie ein Schweizer Uhrwerk.",
+    "description2": "Eine intelligente, multifunktionale App der neuen Generation – entwicktelt, um Ihre Zeit efficienter zu organisieren, das Image Ihres Salon zu stärken und Ihren Kunden ein erstklassiges Buchungserlebnis zu bieten.",
+    "startButton": "Jetzt starten",
+    "learnMoreButton": "Mehr erfahren"
+  },
+  "about": {
+    "title": "Mehr als nur eine Dienstleistung – ein Erlebnis, das bleibt",
+    "description1": "Wenn Ihr Salon eine eigene App hat, sehen Kunden Sie nicht mehr nur als lokalen Friseur, sondern als starke Marke mit Charakter.",
+    "paragraph2": "Eine App mit dem Namen Ihres Salons schafft ein Gefühl von Zugehörigkeit – der Kunde fühlt sich wie ein Teil Ihres Teams, nicht wie ein beliebiger Besucher.",
+    "paragraph3": "Das stärkt die Kundenbindung, hebt Ihr Image und unterscheidet Sie klar vom Wettbewerb. Klingt nach internationalem Niveau? Genau das ist es auch."
+  },
+  "benefits": {
+    "title": "So hilft es Ihnen",
+    "subtitle": "Vereinfachen Sie Ihren Alltag mit besserer Organisation und Struktur im Salon.",
+    "betterPlanning": {
+      "title": "Bessere Planung",
+      "description": "Sie wissen immer im Voraus, was Sie am nächsten Tag erwartet – ganz ohne Überraschungen."
+    },
+    "noCalls": {
+      "title": "Keine Anrufe mehr",
+      "description": "Kunden sehen Ihre freien Termine selbstständig und buchen direkt – ohne Anrufe oder Nachrichten."
+    },
+    "autoReminders": {
+      "title": "Automatische Erinnerungen",
+      "description": "Automatische Erinnerungen reduzieren die Zahl der No-Shows deutlich."
+    },
+    "tagline": "Seien Sie einen Schritt voraus – mit einem System, das für Sie arbeitet."
+  },
+  "features": {
+    "title": "Entdecken Sie die wichtigsten Vorteile Ihrer neuen App",
+    "noCallsMessages": {
+      "title": "Keine Anrufe und Nachrichten",
+      "description": "Alle Termine laufen über die App – mehr Ruhe für konzentriertes Arbeiten und bessere Servicequalität."
+    },
+    "loyaltyProgram": {
+      "title": "Treueprogramm",
+      "description": "Jeder 5. oder 10. Haarschnitt kostenlos – der Kunde verfolgt seinen Fortschritt in der App, Sie stärken die Bindung."
+    },
+    "flexibleWorkTime": {
+      "title": "Flexible Arbeitszeit",
+      "description": "Planen Sie Ihre Verfügbarkeit individuell und vermeiden Sie Überlastung oder Leerlauf."
+    },
+    "retainCustomers": {
+      "title": "Kunden behalten",
+      "description": "Leiten Sie Neukunden direkt in Ihre eigene App – ohne Provisionen oder Zwischenhändler."
+    },
+    "workHoursVacation": {
+      "title": "Arbeitszeiten & Urlaub",
+      "description": "Verwalten Sie Ihre Verfüglichkeit und Pausen direkt über die App - einfach und übersichtlich."
+    },
+    "enterServices": {
+      "title": "Dienstleistungen eintragen",
+      "description": "Listen Sie alle Services (z.B. Haarschnitt, Rasur, Styling) mit Dauer und Preis – so sehen Kunden genau, was Sie anbieten. Dienstleistung + Produkt = Mehrwert bei jedem Termin."
+    },
+    "priceForEveryone": {
+      "title": "Ein Preis für jeden",
+      "description": "Bauen Sie Ihre Marke mit flexiblen Preisen pro Barber auf. Jedes Teammitglied kann individual bepreist werden – von Schnellservice bis Premium-Erlebnis."
+    },
+    "quickBooking": {
+      "title": "Schnelle Buchung",
+      "description": "Der Kunde wählt den Termin, bestätigt – fertig. Kein Anruf nötig."
+    },
+    "productSales": {
+      "title": "Produktverkauf",
+      "description": "Bieten Sie Produkte wie Wachs, Bartöl oder Shampoo direkt beim Buchen an – für zusätzlichen Umsatz ohne Aufwand."
+    },
+    "exclusiveOffers": {
+      "title": "Exklusive Aktionen",
+      "description": "Erstellen Sie citelige Angebote für weniger gefragte Zeiten und füllen Sie Ihren Kalender"
+    },
+    "paymentOnSite": {
+      "title": "Zahlung vor Ort",
+      "description": "Flexibel und unkompliziert – alles bleibt unter Ihrer Kontrolle."
+    },
+    "smartWaitlist": {
+      "title": "Intelligente Warteliste",
+      "description": "Sobald ein Termin frei wird, informiert das System automatisch den nächsten Kunden."
+    },
+    "notifications": {
+      "title": "Benachrichtigungen",
+      "description": "Ob Terminbuchung oder Stornierung – Sie werden sofort informiert."
+    },
+    "customBranding": {
+      "title": "Individuelles Branding",
+      "description": "Ihre App, Ihr Branding – mit Namen, Logo und persönlichem Look & Feel."
+    }
+  },
+  "showcase": {
+    "title": "Ein Preis für jeden – eine Marke für alle",
+    "description": "Bauen Sie Ihre Marke mit flexiblen Preisen pro Barber auf. Jedes Teammitglied kann individuell bepreist werden – von Schnellservice bis Premium-Erlebnis.",
+    "showPrices": "Preise anzeigen"
+  },
+  "pricing": {
+    "title": "Professionelle Lösung – zum fairen Preis",
+    "subtitle": "Mieten Sie monatlich oder kaufen Sie dauerhaft – ganz wie es Ihnen passt.",
+    "monthly": {
+      "title": "Monatliches Abonnement",
+      "price": "Individueller Preis auf Anfrage erhältlich",
+      "features": [
+        "Alle Features inklusive",
+        "Unbegrenzte Buchungen",
+        "Regelmäßige Updates",
+        "Technischer Support"
+      ],
+      "button": "Jetzt starten"
+    },
+    "oneTime": {
+      "title": "Einmaliger Kauf",
+      "price": "Preis auf Anfrage erhältlich",
+      "features": [
+        "Individuelle Anpassung auf Wunsch",
+        "Alle Features inklusive",
+        "Unbegrenzte Buchungen",
+        "Lebenslange Updates",
+        "Lebenslanger Support",
+        "Die App gehört dauerhaft Ihnen – veräußerbar bei Bedarf, mit unserer technischen Unterstützung",
+        "Dauerhafte Veröffentlichung über unsere Apple- & Google-Konten"
+      ],
+      "button": "Kaufen"
+    }
+  },
+  "appDownload": {
+    "title": "Premium-Stil – exklusiv und klar",
+    "subtitle": "Ihre App für stilvolle Terminplanung – verfügbar auf."
+  },
+  "contact": {
+    "title": "Vereinbaren Sie eine Demo oder kontaktieren Sie uns direkt",
+    "subtitle": "Möchten Sie sehen, wie die App für Ihren Salon aussehen kann? Schreiben Sie uns oder buchen Sie eine kostenlose, unverbindliche Präsentation.",
+    "phone": "Telefon",
+    "email": "E-Mail",
+    "instagram": "Instagram",
+    "requestDemo": "Demo anfragen"
+  },
+  "footer": {
+    "description": "Digitale Lösungen, die Eindruck hinterlassen. Technologie, die für Sie arbeitet.",
+    "links": "Links",
+    "contact": "Kontakt",
+    "legal": "Rechtliches",
+    "copyright": "© 2025 MK Dienstleistung. Alle Rechte vorbehalten.",
+    "designedBy": "Designed und entwickelt von"
+  },
+  "legal": {
+    "impressum": {
+      "title": "Impressum",
+      "company": "MK Dienstleistung",
+      "taxNumber": "StNr: 014 834 77215",
+      "contactTitle": "Kontaktieren Sie uns",
+      "address": "Sontraer Str. 17, 60386 Frankfurt",
+      "phone": "+49 157 524 98 366",
+      "email": "info@mkbuchung.de",
+      "copyright": "© 2025 MK Dienstleistung. Alle Rechte vorbehalten."
+    },
+    "datenschutz": {
+      "title": "Datenschutz",
+      "description1": "Datenschutzerklärung für MK Buchung. Wir nehmen den Schutz Ihrer persönlichen Daten sehr ernst.",
+      "description2": "Alle Informationen werden vertraulich behandelt und nur für die Zwecke der Terminbuchung verwendet."
+    },
+    "agb": {
+      "title": "Allgemeine Geschäftsbedingungen",
+      "shortTitle": "AGB",
+      "description1": "Allgemeine Geschäftsbedingungen für die Nutzung der MK Buchung App.",
+      "description2": "Diese AGB regeln die Nutzung unserer Terminbuchungs-App für Salons und deren Kunden."
+    }
+  },
+  "metadata": {
+    "title": "MK Buchung | Professionelle Terminbuchung für Salons in Deutschland",
+    "description": "Professionelle Terminbuchungssoftware für Friseursalons in Deutschland. Optimieren Sie Ihre Terminplanung, reduzieren Sie No-Shows und steigern Sie Ihren Umsatz mit unserer intelligenten Buchungsplattform.",
+    "keywords": "Terminbuchung, Friseursalon Software, Online Terminvergabe, Salon Management, Friseur Terminkalender, Digitale Terminbuchung, Friseursalon App",
+    "openGraph": {
+      "title": "MK Buchung | Die führende Terminbuchungssoftware für Salons",
+      "description": "Revolutionieren Sie Ihre Salonverwaltung mit MK Buchung. Intelligente Terminplanung, automatische Erinnerungen und professionelles Kundenmanagement für Ihren Salon.",
+      "imageAlt": "MK Buchung - Innovative Terminbuchung für Salons"
+    },
+    "twitter": {
+      "title": "MK Buchung | Smarte Terminbuchung für moderne Salons",
+      "description": "Entdecken Sie die fortschrittlichste Terminbuchungslösung für Ihren Salon. Effizient, kundenfreundlich und perfekt für den deutschen Markt optimiert."
+    }
+  }
+}
