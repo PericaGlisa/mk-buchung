@@ -1,7 +1,5 @@
 "use client"
 
-import { useState, useEffect } from "react"
-import { useRouter, usePathname } from "next/navigation"
 import { Button } from "@/components/ui/button"
 import {
   DropdownMenu,
@@ -10,6 +8,7 @@ import {
   DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import { Globe } from "lucide-react"
+import { useLanguage } from "@/contexts/language-context"
 
 type Language = {
   code: string
@@ -23,26 +22,10 @@ const languages: Language[] = [
 ]
 
 export function LanguageSwitcher() {
-  const router = useRouter()
-  const pathname = usePathname()
-  const [currentLang, setCurrentLang] = useState<string>("de")
-
-  useEffect(() => {
-    // Get the language from localStorage or default to 'de'
-    const savedLang = localStorage.getItem("language") || "de"
-    setCurrentLang(savedLang)
-  }, [])
+  const { language, setLanguage } = useLanguage()
 
   const switchLanguage = (langCode: string) => {
-    localStorage.setItem("language", langCode)
-    setCurrentLang(langCode)
-    
-    // Reload the page to apply the language change
-    window.location.reload()
-  }
-
-  const getCurrentLanguage = () => {
-    return languages.find((lang) => lang.code === currentLang) || languages[0]
+    setLanguage(langCode)
   }
 
   return (
@@ -57,7 +40,7 @@ export function LanguageSwitcher() {
         {languages.map((lang) => (
           <DropdownMenuItem
             key={lang.code}
-            className={`flex items-center gap-2 cursor-pointer ${currentLang === lang.code ? 'bg-gray-800' : ''}`}
+            className={`flex items-center gap-2 cursor-pointer ${language === lang.code ? 'bg-gray-800' : ''}`}
             onClick={() => switchLanguage(lang.code)}
           >
             <span>{lang.flag}</span>
