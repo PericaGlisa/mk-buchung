@@ -7,9 +7,11 @@ import Link from "next/link"
 import Image from "next/image"
 import { Menu } from "lucide-react"
 import { DialogTitle } from "@/components/ui/dialog"
+import { useLanguage } from "@/contexts/language-context"
 
 export function MobileMenu() {
   const [open, setOpen] = useState(false)
+  const { messages } = useLanguage()
 
   const closeMenu = () => setOpen(false)
 
@@ -39,35 +41,35 @@ export function MobileMenu() {
             className="text-xl font-medium text-gray-300 hover:text-white transition-colors"
             onClick={closeMenu}
           >
-            Vorteile
+            {messages.navigation.advantages}
           </Link>
           <Link
             href="#funktionen"
             className="text-xl font-medium text-gray-300 hover:text-white transition-colors"
             onClick={closeMenu}
           >
-            Funktionen
+            {messages.navigation.features}
           </Link>
           <Link
             href="#preise"
             className="text-xl font-medium text-gray-300 hover:text-white transition-colors"
             onClick={closeMenu}
           >
-            Preise
+            {messages.navigation.prices}
           </Link>
           <Link
             href="#kontakt"
             className="text-xl font-medium text-gray-300 hover:text-white transition-colors"
             onClick={closeMenu}
           >
-            Kontakt
+            {messages.navigation.contact}
           </Link>
         </nav>
 
         <div className="mt-auto mb-8">
           <Link href="#kontakt" onClick={closeMenu}>
             <Button className="button-glow button-animate bg-white text-black hover:bg-gray-200 w-full">
-              Demo anfragen
+              {messages.navigation.requestDemo}
             </Button>
           </Link>
         </div>
