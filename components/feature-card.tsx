@@ -11,15 +11,25 @@ interface FeatureCardProps {
 
 export function FeatureCard({ title, description, icon, className = "", style }: FeatureCardProps) {
   return (
-    <Card className={`feature-card bg-black border border-gray-800 hover:border-gray-700 ${className}`} style={style}>
-      <CardHeader className="pb-2 text-left">
-        <div className="w-14 h-14 md:w-16 md:h-16 rounded-full bg-gray-900 flex items-center justify-center mb-4 md:mb-6 rotate-animation continuous-float">
+    <Card 
+      className={`feature-card bg-black border border-gray-800 hover:border-gray-700 transition-all duration-300 h-[280px] sm:h-[300px] md:h-[320px] flex flex-col relative overflow-hidden ${className}`} 
+      style={style}
+    >
+      <div className="absolute inset-0 opacity-[0.03] pointer-events-none" 
+           style={{
+             backgroundImage: `linear-gradient(to right, rgb(75, 75, 75) 1px, transparent 1px),
+                              linear-gradient(to bottom, rgb(75, 75, 75) 1px, transparent 1px)`,
+             backgroundSize: '20px 20px'
+           }}
+      />
+      <CardHeader className="pb-2 text-left relative">
+        <div className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-full bg-gray-900 flex items-center justify-center mb-3 sm:mb-4 md:mb-6 rotate-animation continuous-float">
           {icon}
         </div>
-        <CardTitle className="text-lg md:text-xl font-bold">{title}</CardTitle>
+        <CardTitle className="text-base sm:text-lg md:text-xl font-bold">{title}</CardTitle>
       </CardHeader>
-      <CardContent>
-        <CardDescription className="text-base md:text-lg text-gray-400">{description}</CardDescription>
+      <CardContent className="flex items-start relative">
+        <CardDescription className="text-sm sm:text-base md:text-lg text-gray-400">{description}</CardDescription>
       </CardContent>
     </Card>
   )

@@ -252,12 +252,12 @@ export default function Home() {
               </h2>
             </div>
 
-            {/* Erste Reihe: 3 Karten */}
-            <div className="grid gap-6 md:gap-8 md:grid-cols-2 lg:grid-cols-3 stagger-animation">
+            {/* Feature Cards Grid */}
+            <div className="grid gap-4 sm:gap-6 md:gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 stagger-animation">
               <FeatureCard
                 title={messages.features.noCallsMessages.title}
                 description={messages.features.noCallsMessages.description}
-                icon={<Phone className="h-7 w-7 md:h-8 md:w-8 text-white" />}
+                icon={<Phone className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-white" />}
                 className="animate-scale-in"
                 style={{ animationDelay: "0.1s" }}
               />
@@ -265,7 +265,7 @@ export default function Home() {
               <FeatureCard
                 title={messages.features.loyaltyProgram.title}
                 description={messages.features.loyaltyProgram.description}
-                icon={<Gift className="h-7 w-7 md:h-8 md:w-8 text-white" />}
+                icon={<Gift className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-white" />}
                 className="animate-scale-in"
                 style={{ animationDelay: "0.2s" }}
               />
@@ -273,45 +273,39 @@ export default function Home() {
               <FeatureCard
                 title={messages.features.flexibleWorkTime.title}
                 description={messages.features.flexibleWorkTime.description}
-                icon={<Clock className="h-7 w-7 md:h-8 md:w-8 text-white" />}
+                icon={<Clock className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-white" />}
                 className="animate-scale-in"
                 style={{ animationDelay: "0.3s" }}
               />
-            </div>
 
-            {/* Zweite Reihe: 3 Karten */}
-            <div className="grid gap-6 md:gap-8 md:grid-cols-2 lg:grid-cols-3 stagger-animation mt-6 md:mt-8">
               <FeatureCard
                 title={messages.features.retainCustomers.title}
                 description={messages.features.retainCustomers.description}
-                icon={<BadgeCheck className="h-7 w-7 md:h-8 md:w-8 text-white" />}
+                icon={<BadgeCheck className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-white" />}
                 className="animate-scale-in"
                 style={{ animationDelay: "0.4s" }}
               />
 
               <FeatureCard
                 title={messages.features.workHoursVacation.title}
-                 description={messages.features.workHoursVacation.description}
-                icon={<Calendar className="h-7 w-7 md:h-8 md:w-8 text-white" />}
+                description={messages.features.workHoursVacation.description}
+                icon={<Calendar className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-white" />}
                 className="animate-scale-in"
                 style={{ animationDelay: "0.5s" }}
               />
 
               <FeatureCard
                 title={messages.features.enterServices.title}
-                 description={messages.features.enterServices.description}
-                icon={<LayoutGrid className="h-7 w-7 md:h-8 md:w-8 text-white" />}
+                description={messages.features.enterServices.description}
+                icon={<LayoutGrid className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-white" />}
                 className="animate-scale-in"
                 style={{ animationDelay: "0.6s" }}
               />
-            </div>
 
-            {/* Dritte Reihe: 4 Karten */}
-            <div className="grid gap-6 md:gap-8 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 stagger-animation mt-6 md:mt-8">
               <FeatureCard
                 title={messages.features.priceForEveryone.title}
                 description={messages.features.priceForEveryone.description}
-                icon={<Star className="h-7 w-7 md:h-8 md:w-8 text-white" />}
+                icon={<Star className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-white" />}
                 className="animate-scale-in"
                 style={{ animationDelay: "0.7s" }}
               />
@@ -319,7 +313,7 @@ export default function Home() {
               <FeatureCard
                 title={messages.features.quickBooking.title}
                 description={messages.features.quickBooking.description}
-                icon={<Calendar className="h-7 w-7 md:h-8 md:w-8 text-white" />}
+                icon={<Calendar className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-white" />}
                 className="animate-scale-in"
                 style={{ animationDelay: "0.8s" }}
               />
@@ -327,7 +321,7 @@ export default function Home() {
               <FeatureCard
                 title={messages.features.productSales.title}
                 description={messages.features.productSales.description}
-                icon={<ShoppingBag className="h-7 w-7 md:h-8 md:w-8 text-white" />}
+                icon={<ShoppingBag className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-white" />}
                 className="animate-scale-in"
                 style={{ animationDelay: "0.9s" }}
               />
@@ -335,18 +329,15 @@ export default function Home() {
               <FeatureCard
                 title={messages.features.exclusiveOffers.title}
                 description={messages.features.exclusiveOffers.description}
-                icon={<Gift className="h-7 w-7 md:h-8 md:w-8 text-white" />}
+                icon={<Gift className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-white" />}
                 className="animate-scale-in"
                 style={{ animationDelay: "1s" }}
               />
-            </div>
 
-            {/* Vierte Reihe: 4 Karten */}
-            <div className="grid gap-6 md:gap-8 md:grid-cols-2 lg:grid-cols-4 mt-6 md:mt-8 stagger-animation">
               <FeatureCard
                 title={messages.features.paymentOnSite.title}
                 description={messages.features.paymentOnSite.description}
-                icon={<CreditCard className="h-7 w-7 md:h-8 md:w-8 text-white" />}
+                icon={<CreditCard className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-white" />}
                 className="animate-scale-in"
                 style={{ animationDelay: "1.1s" }}
               />
@@ -354,7 +345,7 @@ export default function Home() {
               <FeatureCard
                 title={messages.features.smartWaitlist.title}
                 description={messages.features.smartWaitlist.description}
-                icon={<LayoutGrid className="h-7 w-7 md:h-8 md:w-8 text-white" />}
+                icon={<LayoutGrid className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-white" />}
                 className="animate-scale-in"
                 style={{ animationDelay: "1.2s" }}
               />
@@ -362,7 +353,7 @@ export default function Home() {
               <FeatureCard
                 title={messages.features.notifications.title}
                 description={messages.features.notifications.description}
-                icon={<Bell className="h-7 w-7 md:h-8 md:w-8 text-white" />}
+                icon={<Bell className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-white" />}
                 className="animate-scale-in"
                 style={{ animationDelay: "1.3s" }}
               />
@@ -370,7 +361,7 @@ export default function Home() {
               <FeatureCard
                 title={messages.features.customBranding.title}
                 description={messages.features.customBranding.description}
-                icon={<Palette className="h-7 w-7 md:h-8 md:w-8 text-white" />}
+                icon={<Palette className="h-6 w-6 sm:h-7 sm:w-7 md:h-8 md:w-8 text-white" />}
                 className="animate-scale-in"
                 style={{ animationDelay: "1.4s" }}
               />
