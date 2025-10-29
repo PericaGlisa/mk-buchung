@@ -65,10 +65,9 @@ export async function generateMetadata(): Promise<Metadata> {
     },
     icons: {
       icon: [
-        { url: "/favicon.svg", type: "image/svg+xml" },
-        { url: "/favicon.ico" },
+        { url: "/images/header-logo.png", type: "image/png" },
       ],
-      apple: [{ url: "/favicon.svg" }],
+      apple: [{ url: "/images/header-logo.png" }],
     },
     generator: 'MK Buchung',
     authors: [{ name: 'MK Dienstleistung' }],
