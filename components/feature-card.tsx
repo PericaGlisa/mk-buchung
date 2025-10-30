@@ -15,7 +15,7 @@ export function FeatureCard({ title, description, icon, className = "", style }:
       className={`feature-card bg-black border border-gray-800 hover:border-gray-700 transition-all duration-300 h-[280px] sm:h-[300px] md:h-[320px] flex flex-col relative overflow-hidden ${className}`} 
       style={style}
     >
-      <div className="absolute inset-0 opacity-[0.03] pointer-events-none" 
+      <div className="absolute inset-0 opacity-[0.05] pointer-events-none" 
            style={{
              backgroundImage: `linear-gradient(to right, rgb(75, 75, 75) 1px, transparent 1px),
                               linear-gradient(to bottom, rgb(75, 75, 75) 1px, transparent 1px)`,
